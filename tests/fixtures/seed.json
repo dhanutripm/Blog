@@ -1,0 +1,100 @@
+[
+  {
+    "id": "00000000-0000-4000-8000-000000000001",
+    "title": "Why Every Beginner Should Build a REST API First",
+    "slug": "why-every-beginner-should-build-a-rest-api-first",
+    "content": "A REST API is the quickest way to feel how the web really works. You send a request, the server thinks, and a response comes back with a status code that tells the whole story. Building even a tiny set of routes teaches you routing, validation, error handling and JSON in a single weekend. Start with one resource, make the five CRUD routes behave, and only then add extras.",
+    "author": "Priya Nair",
+    "category": "Backend",
+    "tags": [
+      "rest",
+      "express",
+      "beginners"
+    ],
+    "status": "published",
+    "readingTime": 1,
+    "views": 42,
+    "likes": 7,
+    "createdDate": "2026-10-02T09:30:00.000Z",
+    "updatedDate": "2026-10-02T09:30:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000002",
+    "title": "HTTP Status Codes Explained With Coffee Orders",
+    "slug": "http-status-codes-explained-with-coffee-orders",
+    "content": "Ordering coffee is a surprisingly good model for HTTP. A 200 means your latte arrived. A 201 means the barista created a brand new drink just for you. A 400 means you asked for something that is not on the menu, 404 means the cafe does not exist, and 500 means the espresso machine caught fire. Choosing the right code lets any client understand what happened without reading a single word of your message.",
+    "author": "Arjun Mehta",
+    "category": "Backend",
+    "tags": [
+      "http",
+      "status-codes",
+      "rest"
+    ],
+    "status": "published",
+    "readingTime": 1,
+    "views": 88,
+    "likes": 15,
+    "createdDate": "2026-10-05T14:10:00.000Z",
+    "updatedDate": "2026-10-05T14:10:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000003",
+    "title": "Soft Delete vs Hard Delete: Which One Should You Use?",
+    "slug": "soft-delete-vs-hard-delete-which-one-should-you-use",
+    "content": "A hard delete removes a record forever, which is simple but unforgiving. A soft delete only marks the record as deleted, so the data can be restored when someone clicks the wrong button. The trade-off is that every query must remember to filter out deleted rows. For small apps a trash bin with a permanent-delete option gives users safety without much extra work.",
+    "author": "Priya Nair",
+    "category": "Databases",
+    "tags": [
+      "delete",
+      "data-modeling"
+    ],
+    "status": "published",
+    "readingTime": 1,
+    "views": 31,
+    "likes": 4,
+    "createdDate": "2026-10-09T11:00:00.000Z",
+    "updatedDate": "2026-10-09T11:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000004",
+    "title": "Designing Friendly Validation Errors",
+    "slug": "designing-friendly-validation-errors",
+    "content": "Good validation errors name the field, say what is wrong, and tell the user how to fix it. Instead of returning a vague \"Bad Request\", return a list such as title must be between 3 and 150 characters. Developers using your API will thank you, and your future self debugging at midnight will thank you even more.",
+    "author": "Kavya Reddy",
+    "category": "Design",
+    "tags": [
+      "validation",
+      "ux",
+      "errors"
+    ],
+    "status": "published",
+    "readingTime": 1,
+    "views": 54,
+    "likes": 9,
+    "createdDate": "2026-10-14T16:45:00.000Z",
+    "updatedDate": "2026-10-14T16:45:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000005",
+    "title": "Draft: Notes on Paginating Large Lists",
+    "slug": "draft-notes-on-paginating-large-lists",
+    "content": "Returning every record in one response works until the day it does not. Pagination splits results into pages using page and limit parameters, and a small meta object tells the client the total, the number of pages, and whether a next page exists. Remember to cap the maximum limit so nobody can request a million rows.",
+    "author": "Arjun Mehta",
+    "category": "Backend",
+    "tags": [
+      "pagination",
+      "performance"
+    ],
+    "status": "draft",
+    "readingTime": 1,
+    "views": 3,
+    "likes": 0,
+    "createdDate": "2026-10-20T08:20:00.000Z",
+    "updatedDate": "2026-10-20T08:20:00.000Z",
+    "deletedAt": null
+  }
+]

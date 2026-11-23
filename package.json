@@ -1,0 +1,19 @@
+{
+  "name": "quillpad-blog-api",
+  "version": "1.0.0",
+  "description": "Quillpad – a Blog REST API with CRUD, drafts, soft-delete trash, search, pagination and stats (Node.js + Express).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "keywords": ["rest-api", "express", "nodejs", "blog", "crud"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
